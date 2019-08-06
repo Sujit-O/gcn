@@ -1,0 +1,33 @@
+# Compiled python modules.
+*.pyc
+
+# Setuptools distribution folder.
+/dist/
+/build/
+/py-env/
+/venv/
+/tmp/
+/intermediate/
+/dataset/
+/data/
+/output/
+
+gcn/intermediate
+gcn/dataset
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+/*.egg
+/*.eggs
+*.DS_Store
+*.pdf
+*.txt
+*.json
+*.hdf5
+*.csv
+.vscode/settings.json
+gcn/test/.coverage*
+.coverage
+dataset/*
+/docs/build/*
+/docs/source/auto_examples/*
